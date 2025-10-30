@@ -4,7 +4,12 @@ version = "0.1.0"
 description = "A tiny scalar-valued autograd engine and a neural net library on top of it with PyTorch-like API"
 readme = "README.md"
 requires-python = ">=3.13.5"
-dependencies = []
+dependencies = [
+    "ipykernel>=7.1.0",
+    "jupyterlab>=4.4.10",
+    "matplotlib>=3.10.7",
+    "numpy>=2.3.4",
+]
 
 [tool.ruff]
 line-length = 110
